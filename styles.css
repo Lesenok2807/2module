@@ -9,6 +9,7 @@
     text-decoration: none;
   }
 
+
   .header {
     display: flex;
     flex-direction: row-reverse;
@@ -16,6 +17,7 @@
     padding: 32px 130px 24px 0;
     border: 3px solid #330099;
   }
+
 
   .header__button {
     color: #fff;
