@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
 
   .body {
     margin: 0;
@@ -261,7 +261,12 @@
   }
 
   .form__text {
-    padding: 30px 533px 14px 533px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 374px;
+    padding: 30px 50px 14px 50px;
     font: 600 20px/24px MontserratRegular, arial, helvetica, sans-serif;
   }
 
@@ -397,7 +402,7 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1150px) {
 
     .header {
       display: flex;
